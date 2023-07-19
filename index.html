@@ -15,7 +15,11 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md', // See #301
+      },
     }
   </script>
   <!-- Docsify v4 -->
